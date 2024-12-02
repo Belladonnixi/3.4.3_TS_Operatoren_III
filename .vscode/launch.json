@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "${workspaceFolder}/wetterdienst.dart",
+            "program": "${workspaceFolder}/rating.dart",
             "console": "terminal"
         }
     ]
