@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "${workspaceFolder}/rating.dart",
+            "program": "${workspaceFolder}/rating_advanced.dart",
             "console": "terminal"
         }
     ]
