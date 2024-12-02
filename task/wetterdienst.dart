@@ -35,9 +35,11 @@ void main() {
           .length;
 
   // Ausgabe der berechneten Werte in einem mehrzeiligen String der den double Wert auf zwei Nachkommastellen rundet
-  print('''
+  String result = '''
 Temperaturdifferenz: ${tempDiff.toStringAsFixed(2)}°C
 Regen Tage: $regenTage
 Tage mit Windgeschwindigkeiten über 10 km/h: $windTage
-''');
+''';
+
+  print(result);
 }
