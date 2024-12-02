@@ -5,27 +5,27 @@ void main() {
     {'rating': 1, 'comment': 'Nicht zufrieden'},
   ];
 
-  num totalRating = 0;
+  int totalRating = 0;
   int totalReviews = reviews.length;
   int withoutComment = 0;
   int completeReviews = 0;
 
   // Verarbeitung der Bewertungen
-  totalRating += reviews[0]['rating'];
+  totalRating += reviews[0]['rating'] as int;
   if (reviews[0]['comment'] == null) {
     withoutComment++;
   } else {
     completeReviews++;
   }
 
-  totalRating += reviews[1]['rating'];
+  totalRating += reviews[1]['rating'] as int;
   if (reviews[1]['comment'] == null) {
     withoutComment++;
   } else {
     completeReviews++;
   }
 
-  totalRating += reviews[2]['rating'];
+  totalRating += reviews[2]['rating'] as int;
   if (reviews[2]['comment'] == null) {
     withoutComment++;
   } else {
