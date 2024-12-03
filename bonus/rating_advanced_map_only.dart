@@ -24,14 +24,15 @@ void main() {
   int withoutComment = 0;
   int completeReviews = 0;
 
-  reviews.forEach((key, review) {
+  for (var entry in reviews.entries) {
+    var review = entry.value;
     totalRating += review.rating;
     if (review.comment == null) {
       withoutComment++;
     } else {
       completeReviews++;
     }
-  });
+  }
 
   double averageRating = totalReviews > 0 ? totalRating / totalReviews : 0.0;
 
