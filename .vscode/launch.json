@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "${workspaceFolder}/rating_advanced.dart",
+            "program": "${workspaceFolder}/3.4.4_TS_Switch-Anweisung/week.dart",
             "console": "terminal"
         }
     ]
