@@ -13,7 +13,6 @@ class Review {
 }
 
 void main() {
-  // Bewertungen als Map speichern
   Map<String, Review> reviews = {
     'review1': Review.fromMap({'rating': 5, 'comment': 'Tolles Produkt'}),
     'review2': Review.fromMap({'rating': 3, 'comment': null}),
