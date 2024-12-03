@@ -24,7 +24,7 @@ void main() {
   int withoutComment = 0;
   int completeReviews = 0;
 
-  for (var entry in reviews.entries) {
+  for (final entry in reviews.entries) {
     var review = entry.value;
     totalRating += review.rating;
     if (review.comment == null) {
